@@ -1,0 +1,12 @@
+logLevel: info
+
+rtspAddress: :8554
+webrtcAddress: :8889
+webrtcLocalUDPAddress: 0.0.0.0:0
+
+# Enable built-in WebRTC page.
+webrtcAllowOrigin: '*'
+
+paths:
+  basicstream:
+    source: publisher

@@ -1,0 +1,15 @@
+{
+  "profile": "low_power",
+  "camera": {
+    "width": 1280,
+    "height": 720,
+    "fps": 12
+  },
+  "encoder": {
+    "bitrate": 1000000,
+    "intra_period": 24
+  },
+  "rtsp": {
+    "url": "rtsp://127.0.0.1:8554/basicstream"
+  }
+}
